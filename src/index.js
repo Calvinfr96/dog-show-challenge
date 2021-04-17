@@ -67,7 +67,7 @@ function addEventToSubmit() {
 }
 addEventToSubmit()
 
-//Make patch request to server
+//Make patch request to server changing dog info
 function changeDog(id) {
     const name = document.getElementById('name');
     const breed = document.getElementById('breed');
